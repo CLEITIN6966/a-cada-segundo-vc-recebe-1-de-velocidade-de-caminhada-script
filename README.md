@@ -1,0 +1,1 @@
+# a-cada-segundo-voc-recebe-1-de-velocidade-de-caminhada-script
