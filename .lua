@@ -1,7 +1,6 @@
 -- Defina as posições de destino para teletransportar o jogador
 local positions = {
     Vector3.new(13766.4677734375, 0.6596039533615112, 38885.03125), -- Primeira posição
-    Vector3.new(526.1134033203125, 14.469898223876953, 10175.5224609375)  -- Segunda posição
 }
 
 -- Índice atual da posição
