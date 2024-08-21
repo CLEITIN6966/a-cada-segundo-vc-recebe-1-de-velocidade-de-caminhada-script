@@ -23,3 +23,29 @@ while true do
     teleportPlayer()
     wait(0) -- Espera 5 segundos antes de teletransportar novamente (ajuste conforme necessário)
 end
+
+wait(5)
+
+local player = game.Players.LocalPlayer
+
+local function resetCharacter()
+    if player and player.Character then
+        player.Character:BreakJoints()
+    end
+end
+
+while true do
+    resetCharacter()
+    wait(1.4) -- Wait for 30 seconds before resetting again
+end
+
+-- Notification library
+ local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/CLEITIN6966/executarscriptsdobrookhaven/main/notificação.lua"))();
+ local Notify = Notification.Notify;
+
+ Notify({
+		 Description = "by CLEITI6966";
+		 Title = "load success";
+		 Duration = 9;
+		 
+});
