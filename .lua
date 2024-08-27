@@ -24,7 +24,7 @@ while true do
     wait(0) -- Espera 5 segundos antes de teletransportar novamente (ajuste conforme necessário)
 end
 
-wait(5)
+wait(1)
 
 local player = game.Players.LocalPlayer
 
